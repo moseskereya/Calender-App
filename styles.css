@@ -10,16 +10,11 @@ html {
     background: #e4e3e3;
     font-size: 1em;
   }
-  
-  .wrapper {
-    margin: 15px auto;
-    max-width: 1100px;
-  }
-  
+
   .container-calendar {
     background: #9b9797;
-    padding: 15px;
-    width: 100%;
+    padding: 15px 0;
+    width: 90%;
     margin: 0 auto;
     overflow: auto;
   }
@@ -44,10 +39,11 @@ html {
   .table-calendar {
     border-collapse: collapse;
     width: 100%;
+    height: 60vh;
   }
   
   .table-calendar td, .table-calendar th {
-    padding: 5px;
+    padding: 10px;
     border: 1px solid #e2e2e2;
     text-align: center;
     vertical-align: top;
